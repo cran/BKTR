@@ -1,5 +1,5 @@
 Package: BKTR
-Version: 0.1.1
+Version: 0.2.0
 Title: Bayesian Kernelized Tensor Regression
 Authors@R: c(
         person("Julien", "Lanthier", email = "julien.lanthier@hec.ca", role = c("aut", "cre", "cph"), comment = c(ORCID = "0009-0008-8728-4996")),
@@ -20,7 +20,7 @@ Description: Facilitates scalable spatiotemporally varying coefficient
     with the 'torch' package.
 Depends: R (>= 4.0.0)
 Encoding: UTF-8
-Imports: torch, R6, R6P, ggplot2, ggmap, data.table
+Imports: torch (>= 0.13.0), R6, R6P, ggplot2, ggmap, data.table
 License: MIT + file LICENSE
 RoxygenNote: 7.2.3
 Collate: 'samplers.R' 'tensor_ops.R' 'result_logger.R'
@@ -31,7 +31,7 @@ LazyData: true
 VignetteBuilder: knitr, rmarkdown, R.rsp
 BugReports: https://github.com/julien-hec/BKTR/issues
 NeedsCompilation: no
-Packaged: 2023-10-20 09:17:36 UTC; juju
+Packaged: 2024-08-18 14:27:01 UTC; juju
 Author: Julien Lanthier [aut, cre, cph]
     (<https://orcid.org/0009-0008-8728-4996>),
   Mengying Lei [aut] (<https://orcid.org/0000-0001-7343-3323>),
@@ -39,4 +39,4 @@ Author: Julien Lanthier [aut, cre, cph]
   Lijun Sun [aut] (<https://orcid.org/0000-0001-9488-0712>)
 Maintainer: Julien Lanthier <julien.lanthier@hec.ca>
 Repository: CRAN
-Date/Publication: 2023-10-20 11:50:02 UTC
+Date/Publication: 2024-08-18 14:40:02 UTC
